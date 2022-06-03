@@ -9,15 +9,9 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo '202206032300'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
     post {
         always {
             echo "pipline job done"
