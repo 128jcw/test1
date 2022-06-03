@@ -12,6 +12,7 @@ pipeline {
                 echo 'Testing..'
             }
         }
+    }
     post {
         always {
             echo "pipline job done"
